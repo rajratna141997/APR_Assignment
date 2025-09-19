@@ -1,10 +1,7 @@
 
+# Classifying Forest fire size categories (Small, Large) using SVM
 
----
-
-# 📘 Support Vector Machines (SVM) Project
-
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on applying **Support Vector Machines (SVMs)** for classification tasks as part of the *Advanced Pattern Recognition* coursework.
 
