@@ -18,15 +18,15 @@ The dataset used is forestfires.csv, originally from the UCI Machine Learning Re
 
 ## Features
 
-Spatial Attributes: X, Y (location coordinates)
+* Spatial Attributes: X, Y (location coordinates)
 
-Temporal Attributes: month, day (time of occurrence)
+* Temporal Attributes: month, day (time of occurrence)
 
-Meteorological Variables: temp (temperature), RH (relative humidity), wind (wind speed), rain (rainfall)
+* Meteorological Variables: temp (temperature), RH (relative humidity), wind (wind speed), rain (rainfall)
 
-Fire Weather Indices: FFMC, DMC, DC, ISI (standard measures used in forest fire danger rating systems)
+* Fire Weather Indices: FFMC, DMC, DC, ISI (standard measures used in forest fire danger rating systems)
 
-Target Variable: area (burned area in hectares)
+* Target Variable: area (burned area in hectares)
 
 ## Target Transformation
 
