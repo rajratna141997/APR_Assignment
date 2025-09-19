@@ -3,22 +3,16 @@
 
 ## Project Overview
 
-This project focuses on applying **Support Vector Machines (SVMs)** for classification tasks as part of the *Advanced Pattern Recognition* coursework.
+This project applies Support Vector Machines (SVMs) to the Forest Fires dataset to classify the burned area size of a forest fire into two categories:
 
-SVM is one of the most powerful supervised learning algorithms used for both classification and regression. The central idea is to find an **optimal separating hyperplane** that best divides the data into classes while maximizing the margin between them.
+Small (low burned area)
 
-The purpose of this project is to:
+Large (high burned area)
 
-* Understand the working principle of SVMs.
-* Preprocess and prepare a dataset for classification.
-* Train and evaluate an SVM classifier.
-* Analyze results using performance metrics and visualizations.
+The motivation behind this work is to leverage machine learning techniques to assist in forest fire risk assessment, resource allocation, and disaster management.
 
-Through this project, we gained practical insights into how kernel functions and feature scaling affect classification performance.
 
----
-
-## 📂 Dataset
+## Dataset
 
 The dataset used in this project contains multiple features and target class labels. It was preprocessed before training the model.
 
