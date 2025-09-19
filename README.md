@@ -14,16 +14,29 @@ The motivation behind this work is to leverage machine learning techniques to as
 
 ## Dataset
 
-The dataset used in this project contains multiple features and target class labels. It was preprocessed before training the model.
+The dataset used is forestfires.csv, originally from the UCI Machine Learning Repository.
 
-Key steps applied to the dataset:
+#Features
 
-* **Data Cleaning:** Removed irrelevant or noisy data.
-* **Label Encoding:** Converted categorical labels into numeric values suitable for machine learning models.
-* **Feature Scaling:** Applied normalization and standardization to bring all feature values into a comparable range, which is crucial for SVM performance.
-* **Splitting:** Divided the dataset into **training (70%)** and **testing (30%)** subsets to evaluate the model fairly.
+Spatial Attributes: X, Y (location coordinates)
 
-This dataset allowed us to test SVM’s capability to separate classes in a feature space effectively.
+Temporal Attributes: month, day (time of occurrence)
+
+Meteorological Variables: temp (temperature), RH (relative humidity), wind (wind speed), rain (rainfall)
+
+Fire Weather Indices: FFMC, DMC, DC, ISI (standard measures used in forest fire danger rating systems)
+
+Target Variable: area (burned area in hectares)
+
+#Target Transformation
+
+Since the raw area feature is continuous, it was converted into a binary categorical variable:
+
+Small fire if area < threshold
+
+Large fire if area ≥ threshold
+
+This enables SVM classification into two distinct size categories.
 
 ---
 
