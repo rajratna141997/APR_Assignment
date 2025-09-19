@@ -16,7 +16,7 @@ The motivation behind this work is to leverage machine learning techniques to as
 
 The dataset used is forestfires.csv, originally from the UCI Machine Learning Repository.
 
-# Features
+## Features
 
 Spatial Attributes: X, Y (location coordinates)
 
@@ -28,7 +28,7 @@ Fire Weather Indices: FFMC, DMC, DC, ISI (standard measures used in forest fire 
 
 Target Variable: area (burned area in hectares)
 
-# Target Transformation
+## Target Transformation
 
 Since the raw area feature is continuous, it was converted into a binary categorical variable:
 
@@ -37,8 +37,6 @@ Since the raw area feature is continuous, it was converted into a binary categor
 * Large fire if area ≥ threshold
 
 This enables SVM classification into two distinct size categories.
-
----
 
 ## Methodology
 
@@ -81,7 +79,6 @@ The project followed a structured workflow:
 * Classification Report: Precision, recall, F1-score.
 
 * Visualizations: Plots of decision regions and accuracy performance.
----
 
 ## Results
 
@@ -92,4 +89,3 @@ The evaluation showed that:
 * The **classification report** highlighted strong performance with balanced precision and recall across classes.
 * Visualization of the **decision boundary** clearly illustrated how SVM separates classes in feature space.
 
----
